@@ -12,6 +12,8 @@ int main()
     cout << "Enter the type of fine (1=No Helmet, 2=No License, 3=Overspeed): ";
     cin >> fineType;
 
+
+    
     if (fineType == 1) {
         total_fine = nohelmet_fine;
         cout<<total_fine;
